@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <style>
+             body
+            {
+                overflow: hidden;
+                font-size: 25px;
+            }
+            h1
+            {
+                position: absolute;
+                right: 25%;
+                top: 0%;
+            }
+            .name
+            {
+                position: absolute;
+                left: 8%;
+                top: 15%;
+            }
+            .email
+            {
+                position: absolute;
+                left: 8%;
+                top: 23%;
+            }
+            .gender
+            {
+                position: absolute;
+                left: 8%;
+                top: 32%;
+            }
+            .phone
+            {
+                position: absolute;
+                left: 8%;
+                top: 37%;
+            }
+            .econtact
+            {
+                position: absolute;
+                left: 8%;
+                top: 48%;
+            }
+            .ques
+            {
+                position: absolute;
+                left: 8%;
+                top: 62%;
+            }
+            .pref
+            {
+                position: absolute;
+                left: 8%;
+                top: 74%;
+            }
+            .rest
+            {
+                position: absolute;
+                right: 18%;
+                top: 15%;
+            }
+            .act
+            {
+                position: absolute;
+                right: 19%;
+                top: 53%;
+            }
+            .yn
+            {
+                position: absolute;
+                right: 4%;
+                top: 78%;
+            }
+            input[type=text], select 
+            {
+             padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+             border-radius: 4px;
+             box-sizing: border-box;
+            }
+            .vertical
+             {
+            border-left: 1px solid black;
+            height: 100%;
+            position:absolute;
+            left: 50%;
+            top: 15%;
+             }
+        </style>
+    </head>
+    <body>
+        <h1>General Admission Registration</h1>
+        <div class = "vertical"></div>
+        <form>
+            <div class="name">
+            <label for="fname">Name:</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="fname" Name="fname"placeholder="First Name">
+            &nbsp;&nbsp;&nbsp;<input type="text" id="lname" Name="lname"placeholder="Last Name"><br><br>
+            </div>
+
+            <div class="email">
+            <label for="Email">Email:</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="email" Email="email"placeholder="sample@example.com"><br>
+            </div>
+
+            <div class="gender">
+            <label for="Gender">Gender:</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="male"/> Male 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="female"/> Female 
+            </div>
+
+            <div class="phone">
+            <label for="phone">Phone:</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="phone" Phone="phone"><br><br>
+            </div>
+
+            <div class="econtact">
+            <label for="econtact">Emergency Contact:</label><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="econtact" Name="econtact"><br><br>
+            </div>
+
+            <div class="ques">
+            <label for="ques">Do you require parking?:</label><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="yes"/> Yes 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="yes"/> No<br>
+             </div>
+
+             <div class="pref">
+            <label for="pref">What is your room preference ?:</label><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sr"/> Single Room<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="shr"/>Shared Room<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="nn"/> No Room Needed<br>
+            </div>
+
+            <div class="rest">
+            <label for="rest">Do you have Dietary restrictions  ?:</label><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="n"/> None<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="veg"/>Vegetarian<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="ga"/> Glutton Allergy<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="la"/> Lactose Allergy<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="na"/> Nut Allergy <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sa"/> Shelfish Allergy <br>
+            </div>
+
+            <div class="act">
+            <label for="act">What activities will you attend ?:</label><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="agd"/> Awards Gala Dinner<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="l"/>Luncheon<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="th"/> Town Hall<br>
+            </div>
+
+            <div class="yn">
+            <label for="yn">Do you want to see the list of other </label><br>
+            <label for="yn"> attendees and their profiles on the official event app ?:</label><br>
+            <label for="yn"> official event app ?:</label><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="yes"/>Yes
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="no"/>No
+            </div>
+        </form>
+    </body>
+</html>
